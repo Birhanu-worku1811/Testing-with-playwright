@@ -1,0 +1,62 @@
+[
+  {
+    "city": "Addis Ababa",
+    "location": "Addis Ababa, Ethiopia",
+    "temperature": "58°",
+    "condition": "Mostly Cloudy"
+  },
+  {
+    "city": "Mekelle",
+    "location": "Mek'ele, Tigray, Ethiopia",
+    "temperature": "63°",
+    "condition": "Partly Cloudy"
+  },
+  {
+    "city": "Gondar",
+    "location": "Gondar, Porto, Portugal",
+    "temperature": "61°",
+    "condition": "Clear"
+  },
+  {
+    "city": "Bahir Dar",
+    "location": "Bahir Dar, Amhara, Ethiopia",
+    "temperature": "64°",
+    "condition": "Rain"
+  },
+  {
+    "city": "Dire Dawa",
+    "location": "Dire Dawa Na Isa Na Gurgura Awraja, Somali, Ethiopia",
+    "temperature": "85°",
+    "condition": "Partly Cloudy"
+  },
+  {
+    "city": "Awassa",
+    "location": "Hawaasa, Sidama, Ethiopia",
+    "temperature": "63°",
+    "condition": "Mostly Cloudy"
+  },
+  {
+    "city": "Jimma",
+    "location": "Jimma, Oromia, Ethiopia",
+    "temperature": "61°",
+    "condition": "Cloudy"
+  },
+  {
+    "city": "Harar",
+    "location": "Harare, Zimbabwe",
+    "temperature": "50°",
+    "condition": "Fair"
+  },
+  {
+    "city": "Jijiga",
+    "location": "Jijiga, Somali, Ethiopia",
+    "temperature": "66°",
+    "condition": "Mostly Cloudy"
+  },
+  {
+    "city": "Arba Minch",
+    "location": "Arba Minch, Southern Nations Nationalities and Peoples' Region, Ethiopia",
+    "temperature": "67°",
+    "condition": "Mostly Cloudy"
+  }
+]
