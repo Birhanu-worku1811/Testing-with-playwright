@@ -1,4 +1,3 @@
-// extract-weather.js
 const { test, expect } = require('@playwright/test');
 const fs = require('fs');
 
@@ -16,21 +15,15 @@ const cities = [
 ];
 
 test('Extract weather information for Ethiopian cities', async ({ page }) => {
-  // Array to hold the weather data
   const weatherData = [];
 
-  // Loop through each city
   for (const cityName of cities) {
-    // Navigate to the website
     await page.goto('https://weather.com/', { waitUntil: 'domcontentloaded' });
 
-    // Wait for the search input to be visible
     await page.waitForSelector('input[placeholder="Search City or Zip Code"]');
 
-    // Search for weather in a specific city
     await page.fill('input[placeholder="Search City or Zip Code"]', cityName);
 
-    // Locate and click the first item in the dropdown menu
     const firstDropdownItem = page.locator('#LocationSearch_listbox button');
     await firstDropdownItem.first().click();
 
@@ -53,7 +46,6 @@ test('Extract weather information for Ethiopian cities', async ({ page }) => {
       condition: conditionText
     });
 
-    // Wait for 2 seconds to avoid hitting rate limits
     await page.waitForTimeout(2000);
   }
 
